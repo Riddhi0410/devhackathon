@@ -97,7 +97,7 @@ const Track = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: "Bearer cm9dahlqm0001lb0474s5tc7w",
+          Authorization: " ",          #change with your api key
         },
         body: JSON.stringify({
           messages: [{ role: "user", content: chatInput }],
